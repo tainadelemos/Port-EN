@@ -433,7 +433,7 @@ Posters and still images
 }
 
 .scene:nth-child(1) .info header {
-	background-image: url("7652320.jpg");
+	background-image: url("https://cdn.dribbble.com/users/1044993/screenshots/5400112/vampire_dribbble.png");
 }
 
 .scene:nth-child(2) .info header {
@@ -520,7 +520,7 @@ margin-right: 10%;
   top: calc(var(--screenSize) * 10 + var(--borderSize));
 }
 .screen:nth-of-type(1) {
-  background-image: url('Fernanda\ Mendes\ \(3\).png');
+  background-image: url('cover.png');
   background-repeat: no-repeat;
   background-size: cover;
   border: var(--borderSize) solid #ecedef;
