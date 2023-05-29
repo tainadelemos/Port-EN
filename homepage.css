@@ -112,40 +112,23 @@ footer {
   margin-top: 10vh;
 }
 #Code {
-  height: 40%;
+  height: 30%;
   width: 20%;
   margin-left: 60%;
   margin-right: 20%;
   border-radius: 12px;
-}
-h3 {
-  text-align: center;
-}
-#More {
-  width: 10%;
-  height: 5%;
-   margin-left: 45%;
-   margin-right: 45%;
-   border-radius: 12px;
-   background-color: #ffcf60;
+    background-color: #ffcf60;
   border-color: #ffcf60;
   color: black;
 }
-#More:hover {
+#Code:hover {
   background-color: #ffcf60;
   border-color: #ffcf60;
   color: white;
 }
-.square {
-  width: 90%;
-  height: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: -70vh;
-  position:absolute;
-  background-color: #ff6949;
-  opacity: 0;
-   animation: fade-in 1s ease-in-out 7s forwards;
+
+h3 {
+  text-align: center;
 }
 .ball {
   width: 15%;
@@ -421,15 +404,15 @@ Posters and still images
 **************************************/
 
 .scene:nth-child(1) .movie .poster {
-  background-color: #ffcf60;
+  background-color: #0097b2;
 }
 
 .scene:nth-child(2) .poster {
-  background-color: #5e17eb;
+  background-color: #ff6949;
 }
 
 .scene:nth-child(3) .poster {
-  background-color: #ff6949;
+  background-color: #5e17eb;
 }
 
 .scene:nth-child(1) .info header {
@@ -749,7 +732,7 @@ margin-right: 10%;
     height: 100%;
   }
   #walking {
-    height: 40vh;
+    height: 40%;
   }
   #alterar-cores {
     margin-left: 35%;
@@ -767,7 +750,7 @@ margin-right: 10%;
     height: 100%;
   }
   #walking {
-    height: 40vh;
+    height: 40%;
   }
   #alterar-cores {
     margin-left: 35%;

@@ -13,6 +13,7 @@ botao.addEventListener('click', function() {
   const home = document.querySelector('#home');
   const banner = document.querySelector('#welcome');
   const pc = document.querySelector('#pc');
+  const intro = document.querySelector('#intro');
 
   // Altera as cores dos elementos
   body.style.backgroundColor = 'white';
@@ -26,8 +27,17 @@ botao.addEventListener('click', function() {
   botao.style.backgroundColor = 'transparent';
   botao.style.borderColor = 'transparent';
   home.classList.add('hidden');
-banner.classList.remove('hidden');
-pc.classList.remove('hidden');
-});
+  banner.classList.remove('hidden');
+  pc.classList.remove('hidden');
+
+
 function changeTheme() {
 }
+  // Define a função que será chamada após 7 segundos
+  const hideIntro = function() {
+    intro.style.display = 'none';
+  };
+
+  // Chama a função após 7 segundos
+  setTimeout(hideIntro, 7000);
+});
