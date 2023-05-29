@@ -18,11 +18,18 @@
   border-color: whitesmoke;
   color: black;
 }
+.more {
+  width: 40%;
+  border-radius: 18px;
+  background-color: #ffcf60;
+  border-color: #ffcf60;
+}
 body {
   background-size: 100vw 100vh;
   background-repeat:no-repeat;
   background-attachment: fixed;
   margin: 0;
+  background-color: whitesmoke;
 }
 #contact {
   width: 10%;
@@ -66,7 +73,7 @@ footer {
  #port {
   width: 80%;
   height: 20%;
-  background-color: whitesmoke;
+  background-color: #ffd87d;
   opacity: 0.9;
   margin-left: 10%;
   margin-right: 10%;
@@ -416,15 +423,15 @@ Posters and still images
 }
 
 .scene:nth-child(1) .info header {
-	background-image: url("https://cdn.dribbble.com/users/1044993/screenshots/5400112/vampire_dribbble.png");
+	background-image: url("survey.png");
 }
 
 .scene:nth-child(2) .info header {
-	background-image: url("https://cdn.dribbble.com/users/1044993/screenshots/5400112/vampire_dribbble.png");
+	background-image: url("ada.png");
 }
 
 .scene:nth-child(3) .info header {
-	background-image: url("https://cdn.dribbble.com/users/226242/screenshots/5011272/schro_dinger_s_cat_fullview_2x.jpg");
+	background-image: url("tech.png");
 }
 
 /*************************************
